@@ -1,0 +1,46 @@
+/* CSS reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* CSS Variables */
+:root {
+    --navbar-height: 59px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+    /* border: 2px solid red; */
+
+}
+
+#navbar {
+    position: sticky;
+    top:0px;
+    font-family: 'Comfortaa', cursive;
+    margin: 0px 2px;
+    display: flex;
+    align-items: center;
+}
+
+/* } */
+/* .navigation li a{ */
+/*  */
+/* } */
+#logo {
+    margin: 2px 0px;
+    ;
+}
+
+#logo img {
+    width: 50px;
+    margin: 3px 6px;
+    height: 34px;
+}
+
